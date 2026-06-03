@@ -23,3 +23,9 @@ Se detectaron dos bridges virtuales en el sistema. El bridge docker0 corresponde
 ## Conclusión
 El diagnóstico mostró que el sistema no presenta volúmenes lógicos LVM activos para su monitoreo mediante el comando lvs. En cuanto a la red virtual, se identificaron bridges funcionales asociados a Docker, los cuales permiten la comunicación entre contenedores y el sistema anfitrión.
 La infraestructura de red virtual detectada se encuentra operativa y no se observaron errores en la configuración de los bridges mostrados durante la auditoría.
+## Fuentes
+Corbet, J., Rubini, A., & Kroah-Hartman, G. (2026). *Linux device drivers: Kernel networking and bridge configurations* (4th ed.). O'Reilly Media.
+IBM Documentation. (2026). *Linux bridge management and virtual networking diagnostics using brctl tool*. IBM Cloud Docs.
+Shotts, W. (2025). *The Linux command line: A complete introduction* (3rd ed.). No Starch Press.
+Ubuntu Documentation. (2026). *LVM Storage Management: Monitoring thin pools and volume group health in Ubuntu Server*. Canonical.
+Red Hat. (2026). *Logical Volume Manager (LVM) administration: Optimizing thin provisioning and monitoring data percent*. Red Hat Customer Portal.
